@@ -93,12 +93,14 @@ workspace-docker = ["aiodocker"]
 workspace-e2b = ["e2b"]
 workspace-daytona = ["daytona"]
 workspace-k8s = ["kubernetes-asyncio"]
+workspace-maritime = ["maritime>=0.10.0"]
 workspace-opensandbox = ["opensandbox"]
 workspace = [
     "agentscope[workspace-docker]",
     "agentscope[workspace-e2b]",
     "agentscope[workspace-daytona]",
     "agentscope[workspace-k8s]",
+    "agentscope[workspace-maritime]",
     "agentscope[workspace-opensandbox]",
 ]
 # ------------ Tools ------------

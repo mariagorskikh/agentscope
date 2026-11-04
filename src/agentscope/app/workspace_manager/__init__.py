@@ -9,6 +9,7 @@ from ._docker_workspace_manager import DockerWorkspaceManager
 from ._e2b_workspace_manager import E2BWorkspaceManager
 from ._daytona_workspace_manager import DaytonaWorkspaceManager
 from ._k8s_workspace_manager import K8sWorkspaceManager
+from ._maritime_workspace_manager import MaritimeWorkspaceManager
 from ._opensandbox_workspace_manager import OpenSandboxWorkspaceManager
 from ._applecontainer_workspace_manager import (
     AppleContainerWorkspaceManager,
@@ -25,6 +26,7 @@ __all__ = [
     "E2BWorkspaceManager",
     "DaytonaWorkspaceManager",
     "K8sWorkspaceManager",
+    "MaritimeWorkspaceManager",
     "OpenSandboxWorkspaceManager",
     "AppleContainerWorkspaceManager",
 ]

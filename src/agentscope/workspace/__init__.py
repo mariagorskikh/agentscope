@@ -7,6 +7,7 @@ from ._local_workspace import LocalWorkspace
 from ._offload_protocol import Offloader
 from ._docker import DockerBackend, DockerWorkspace
 from ._e2b import E2BWorkspace, E2BBackend
+from ._maritime import MaritimeBackend, MaritimeWorkspace
 from ._daytona import DaytonaBackend, DaytonaWorkspace
 from ._k8s import K8sBackend, K8sWorkspace
 from ._opensandbox import OpenSandboxBackend, OpenSandboxWorkspace
@@ -27,6 +28,8 @@ __all__ = [
     "DaytonaWorkspace",
     "K8sBackend",
     "K8sWorkspace",
+    "MaritimeBackend",
+    "MaritimeWorkspace",
     "Offloader",
     "OpenSandboxBackend",
     "OpenSandboxWorkspace",
